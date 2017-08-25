@@ -44,28 +44,6 @@
     var root = '';
 </script>
 
-<script type="text/javascript">
-    var conn, reloadTimer, connectTimer;
-    var connect = function() {
-        conn = new WebSocket('ws://' + location.host + '/live');
-        conn.onmessage = function(event) {
-            if (event.data === 'change') {
-                if (reloadTimer) clearTimeout(reloadTimer);
-                reloadTimer = setTimeout(function() {
-                    window.location.reload();
-                }, 200);
-            }
-        };
-        conn.onclose = function() {
-            if (connectTimer) clearTimeout(connectTimer);
-            connectTimer = setTimeout(function() {
-                connect();
-            }, 1000);
-        };
-    };
-    connect();
-</script>
-
 
         <meta name="keywords" content="教程,">
         <meta name="description" content="如何搭建属于你的静态博客">
@@ -127,13 +105,23 @@
                     
                 </section>
                 
-    <section id="disqus_thread"></section>
-    <script type="text/javascript">
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//username.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
+   <div class="comment"></div>
+                
+    
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    
+    <script src="/Valine.min.js"></script>
+    <script src="https://cdnjs.cat.net/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    
+    <script>
+        new Valine({
+        
+            av: AV, 
+            el: '.comment',
+            app_id: 'KLBu5agdq8grBxl47Ov75zFu-gzGzoHsz',
+            app_key: 'rO12B6HUVk9e2pXj6lnTiIqb',
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        });
     </script>
 
 
