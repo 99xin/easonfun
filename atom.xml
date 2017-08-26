@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>陪你度过漫长岁月</title>
   <id>http://eason.fun</id>
-  <updated>2017-08-25T17:25:34+08:00</updated>
+  <updated>2017-08-26T08:38:18+08:00</updated>
   <subtitle>真诚祝愿你挨到新天地</subtitle>
   <link href="http://eason.fun"></link>
   <author>
     <name>陪你度过漫长岁月</name>
   </author>
+  <entry>
+    <title>演示网站</title>
+    <updated>2017-08-26T16:59:26+08:00</updated>
+    <id>tag:eason.fun,2017-08-26:/yan-shi-wang-zhan.html</id>
+    <content type="html">&lt;p&gt;这是一个搭建在Github静态托管的演示网站,使用的程序是纸小墨静态博客,如果你也想拥有一个这样的博客,对于新手来说太过于复杂,对于老说来说太过于简单&amp;hellip;&lt;/p&gt;&#xA;</content>
+    <link href="http://eason.fun/yan-shi-wang-zhan.html"></link>
+    <author>
+      <name>EasonDin</name>
+    </author>
+  </entry>
   <entry>
     <title>如何搭建属于你的静态博客</title>
     <updated>2017-08-23T16:59:26+08:00</updated>
