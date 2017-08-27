@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>陪你度过漫长岁月</title>
   <id>http://eason.fun</id>
-  <updated>2017-08-26T11:00:19+08:00</updated>
+  <updated>2017-08-27T16:43:57+08:00</updated>
   <subtitle>真诚祝愿你挨到新天地</subtitle>
   <link href="http://eason.fun"></link>
   <author>
     <name>陪你度过漫长岁月</name>
   </author>
+  <entry>
+    <title>Kindle小说资源地址</title>
+    <updated>2017-08-27T13:59:26+08:00</updated>
+    <id>tag:eason.fun,2017-08-27:/kindle-zi-yuan.html</id>
+    <content type="html">&lt;p&gt;把我在Kindle上找到的比较不错的小说以及一些其他书本资源分享在这，以便日后的查看。&lt;/p&gt;&#xA;</content>
+    <link href="http://eason.fun/kindle-zi-yuan.html"></link>
+    <author>
+      <name>EasonDin</name>
+    </author>
+  </entry>
   <entry>
     <title>音乐分享页面</title>
     <updated>2017-08-27T10:57:00+08:00</updated>
